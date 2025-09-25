@@ -2,11 +2,11 @@
 此系統使用工具 LabVIEW 及 Arduino
 
 系統流程:
-• 	LabVIEW 傳送控制指令（PWM 值、水閥狀態）給 Arduino。
-• 	Arduino 根據指令控制 LED 亮度與水閥開關。
-• 	Arduino 同時讀取水位（ADC）、距離（超音波）、按鈕狀態。
-• 	每 0.5 秒，Arduino 把這些感測資料回傳給 LabVIEW。
-• 	LabVIEW 更新畫面，讓使用者看到最新狀態。
+- 	LabVIEW 傳送控制指令（PWM 值、水閥狀態）給 Arduino。
+- 	Arduino 根據指令控制 LED 亮度與水閥開關。
+-	 Arduino 同時讀取水位（ADC）、距離（超音波）、按鈕狀態。
+-	 每 0.5 秒，Arduino 把這些感測資料回傳給 LabVIEW。
+-	 LabVIEW 更新畫面，讓使用者看到最新狀態。
 
  操作方式:
 - 打開 LabVIEW 介面
@@ -15,7 +15,7 @@
 - 調整 PWM LED 旋鈕
 - 這個旋鈕可以控制 LED 的亮度。
 
-- 切換水閥開關（NO1 / NO2）。
+- 切換水閥開關（NO1 / NO2）
 - 點擊 NO1 或 NO2 開關，控制水閥1 或水閥2 的開啟與關閉。
 
 - 觀察水位與距離
